@@ -1,1 +1,2 @@
-# multipurpose-calculator [Live Demo] (https://alvinjoby.github.io/multipurpose-calculator/)
+# multipurpose-calculator [here](https://alvinjoby.github.io/multipurpose-calculator/)
+
