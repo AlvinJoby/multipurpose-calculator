@@ -73,11 +73,11 @@ button:active{
 
 @media (max-width: 768px){
     #calculator{
-        max-width: 450px;
+        max-width: 425px;
     }
     button{
-        width: 90px;
-        height: 90px;
+        width: 85px;
+        height: 85px;
     }
 }
 /*<!-----CODE-BY-ALVINJOBY----->
