@@ -74,18 +74,18 @@ button:active{
 
 @media (max-width: 768px){
     #calculator{
-        max-width: 350px;
+        max-width: 310px;
     }
     button{
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
     }
     #keys{
-        gap: 8px;
-        padding: 12px;
+        gap: 7.5px;
+        padding: 11px;
     }
     #display{
-        padding: 50px;
+        padding: 60px;
     }
 }
 /*<!-----CODE-BY-ALVINJOBY----->
