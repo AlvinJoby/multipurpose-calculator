@@ -1,0 +1,96 @@
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+#display{
+    display: flex;
+    width: 91%;
+    padding: 40px;
+    text-align: right;
+    font-size: 60px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+button{
+    width: 95px;
+    height: 95px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 45%);
+}
+.operators{
+    background-color: hsl(40, 100%, 50%);
+    font-size: 40px;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+.operators:hover{
+    background-color: hsl(39, 100%, 55%);
+}
+.operators:active{
+    background-color: hsl(39, 100%, 60%);
+}
+#backBtn{
+    width: 40px;
+    height: 38px;
+}
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+
+    @media (max-width: 768px){
+        #calculator{
+            max-width: 340px;
+        }
+        button{
+            width: 70px;
+            height: 70px;
+        }
+        #keys{
+            gap: 6px;
+            padding: 10px;
+        }
+        #display{
+            padding: 60px;
+            width: 75%;
+            font-size: 50px;
+        }
+    }
+/*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
+
+    /*<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->*/
